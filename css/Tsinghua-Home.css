@@ -1,0 +1,326 @@
+a:hover{
+	text-decoration: none;
+}
+
+#header{
+	overflow: auto;
+	margin-bottom: 20px;
+}
+#topLine{
+	display: block;
+	background:#5c307d; 
+	height: 7px;
+}
+#topLeft{
+	float: left;
+	margin-top: 20px;
+}
+
+.topRight{
+	float: right;
+	margin-top: 20px;
+}
+
+#en-version{
+	margin-bottom: 20px;
+}
+
+#en-version{
+	color: #4d1379;
+	text-align: right;
+	text-decoration: none;
+	display: block;
+}
+#en-versionlink{
+	text-decoration: none;
+}
+.topRight input{
+	width: 151px;
+	border-radius: 0px;
+	float: left;
+}
+.topRight button{
+	background: #5C307D;
+	color: white;
+	border-radius: 0px;
+	margin-left: -1px;
+}
+.topRight button:hover{
+	background: #22132D;
+	color: white;
+}
+/*头部样式结束*/
+/*.............................*/
+
+
+#searchTab{
+	clear: both;
+	border-top: #DEDEDE solid 1px;	
+}
+#searchTab nav{
+	background: white;
+	border: white;
+}
+#searchTab a{	
+	font-size: 15px;
+	color: #333333;
+}
+#Nav a:hover{
+	background: #5C307D;
+	color: white;
+	border: #5C307D;
+}
+#dropdownMenu{
+	background: #5C307D;
+	border: #5C307D;
+}
+#dropdownMenu a{
+	color: white;
+}
+#dropdownMenu a:hover{
+	background: #3d1c55;
+}
+/*导航栏结束*/
+/*.............................*/
+
+
+#imgTitle{
+	background: #888885;
+	opacity: 0.7;
+	height: 16%;
+	width: 100%;
+	
+	/*设置div的位置 ,则不会溢出*/
+	position:absolute; 
+	bottom: 0;
+	
+	/*div的内容垂直居中*/
+	line-height:58px;   
+    overflow:hidden;
+}
+
+#txt{
+	color: #FFFFFF;
+	font-size: 18px;
+	padding-left: 30px;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+#date{
+	width: 15%;
+	height: 13%;
+	line-height: 50px;
+	background: #5C307D;
+	text-align: center;
+	font-size: 18px;
+	color: #ffc600;
+	
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#btnLeft{
+	position: absolute;
+    left: 15px;
+}
+#btnRight{
+	position: absolute;
+    right: 14px;
+}
+/*轮播图部分结束*/
+/*.............................*/
+
+#calendar{
+	background: #5C307D;
+	float: left;
+    width: 100%;
+    margin-left: 15px;
+}
+#Left{
+	float: left;
+	padding: 11px;
+
+}
+#Right{
+	float: right;
+	padding: 11px;
+}
+#calendar #month{
+	font-size: 20px;
+	color: white;
+	float: left;
+	padding: 6px;
+}
+#day{
+	text-align: center;
+}
+#day li{
+	float: left;
+	font-size: 12px;
+	padding: 0 11px;
+}
+#day li a{
+	color: #866c9c;
+}
+ul, li{
+	list-style-type: none;
+}
+#dayNews{
+	color: white;
+}
+#dayNews:focus{
+	color: yellow;
+}
+/*日历部分结束*/
+/*.............................*/
+#news .col-md-4{
+	margin-bottom: 20px;
+}
+#news{
+	background: white;
+	border-color: white;
+	margin-top: 57px;
+}
+#newsHead{
+	background: white;
+	border-color: white;
+	font-size: 22px;
+}
+#more{
+	float: right;
+	font-size: 14px;
+	color: #999;
+	line-height: 30px;
+	margin-right: 22px;
+	text-decoration: none;
+}
+#toutiao-date{
+	border: 1px solid #edeaf1;
+	float: left;
+	color: #5b317d;
+	background: #edeaf1;
+	text-align: center;
+	margin-top: 10px;
+}
+#toutiao-date span{
+	font-size: 24px;
+}
+#toutiao-date p{
+	font-size: 16px;
+}
+#newsTitle{
+	color: #333333;
+	text-decoration: none;
+}
+#newsTitle:hover{
+	color: #75608C;
+}
+#newsContext{
+	color: #777777;
+}
+/*头条新闻部分结束*/
+/*.............................*/
+
+#newsBorder1{
+	border-top: 2px solid #5C307D;
+	margin: 5px;
+}
+#newsBorder2{
+	border-top: 2px solid #E0823D;
+	margin: 5px;
+}
+/*焦点关注部分结束*/
+/*.............................*/
+
+#lianjie{
+	padding-top: 14px;
+}
+#lianjieHead{
+	display: block;
+	font-size: 18px;
+	border-bottom: 1px solid #8C8C8C;
+}
+#lianjie div{
+	padding: 8px 0;
+}
+#lianjie div a{
+	color: #333333;
+}
+#lianjie div a:hover{
+	text-decoration: none;
+	color: #4F608C;
+}
+
+#Link{
+	background: #f8f7f4;
+}
+    
+
+/*常用链接部分结束*/
+/*.............................*/
+
+#pics{
+	padding-top: 30px;
+}
+#pics ul{
+	overflow: auto;
+}
+#pics li{
+	float: left;
+	margin: 2px 4px;
+}
+/*图片链接部分结束*/
+/*.............................*/
+
+#footLink{
+	background: #E0E0E0;
+}
+#footLink thead a{
+	color: #222222;
+}
+#footLink tbody tr td{
+	color: #777777;
+	line-height: 6px;
+}
+#footLink thead a:hover, #footLink td:hover{
+	color: #4F608C;
+}
+#footLink th{
+	/*white-space:nowrap;*/
+	/*文字不换行*/
+}
+
+#footInfo{
+	background: #22132D;
+	color: #A5A2A7;
+	font-size: 10px;
+	text-align: center;
+	padding: 20px 0;
+	line-height: 22px;
+}
+
+@media only screen and (max-width: 486px) {
+	
+	#topLeft{
+		float: none;
+	}
+	.topRight{
+		background:#5c307d;
+		padding-top: 10px;
+		width: 100%;
+	}
+	#topLine{
+		display: none;
+		/*visibility: hidden;*/
+	}
+	.topRight button{
+		background: #22132D;
+	}
+	#en-version{
+		color: white;
+		float: left;
+		margin-top: 4px;
+	}
+}

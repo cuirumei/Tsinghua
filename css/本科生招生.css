@@ -1,0 +1,164 @@
+#IntroTab{
+	border-left: 12px solid #5C307D;
+}
+#IntroTab .navbar-collapse{
+	padding: 0;
+}
+#IntroTab h3{
+	background: #5C307D;
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 48px;
+	padding: 0 22px;
+	margin: -19px 0px 0px 0px;
+}
+#IntroTab h4{
+	background: #5C307D;
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 48px;
+	padding: 0 22px;
+	
+}
+
+#IntroTab ul{
+	border-top: 1px solid #DDDDDD;
+}
+#IntroTab li{
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 15px;
+	line-height: 49px;
+	color: #22132D;
+	margin-left: -40px;
+}
+#IntroTab li a{
+	color: #22132D;
+	margin-left: 28px;
+}
+#IntroTab li a:hover{
+	color: #4F608C;
+}
+#underRec{
+	border-left: 4px solid #FF9600;
+}
+/*招生就业切换栏结束
+.....................................*/
+
+#IntroMenu{
+	text-align: right;
+	border-right: 4px solid #DDDDDD;
+	line-height: 32px;
+}
+#IntroMenu span{
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 20px;
+}
+#IntroMenu li{
+	padding: 0 7px 0 0;
+}
+#IntroMenu a{
+	color: #777777;
+}
+#IntroMenu a:hover{
+	color: #777777;
+}
+.affix{
+    top:20px;
+}
+#IntroMenu i{
+	position: relative;
+    left: 16px;
+    color: #5c307d;
+    visibility: hidden;
+}
+.current{
+	visibility: visible;
+}
+/*滚动监听结束
+.....................................*/
+
+#IntroTitle{
+	margin-top: 22px;
+}
+#IntroTitle p,#IntroTitle a{
+	color: #999999;
+	font-size: 12px;
+}
+#IntroTitle a:hover{
+	color: #22132D;
+}
+/*内容标题结束
+.....................................*/
+
+#IntroContent h2{
+	color: #5C307D;
+	border-bottom: 1px solid #D4D4D4;
+    padding-bottom: 14px;
+}
+#IntroContent h4{
+	border-bottom: 1px solid #D4D4D4;
+	color: black;
+	background: #f4f4f4;
+	line-height: 58px;
+
+}
+#IntroContent p{
+	margin: 40px 0;
+	text-indent: 2em;
+	color: #444444;
+}
+/*内容结束
+.....................................*/
+
+#IntroLink{
+	margin-top: 50px;
+}
+#IntroLink h4{
+	border: none;
+	padding-bottom: 0;
+}
+#IntroLink ul{
+	padding-left: 0;
+	margin-top: 10px;
+}
+#IntroLink ul li{
+	padding: 4px 0;
+	font-size: 100%;
+}
+#IntroLink a{
+	color: #777;
+}
+#IntroLink a:hover{
+	color: #22132D;
+}
+/*相关链接结束
+.....................................*/
+
+
+@media only screen and (max-width: 767px) {
+
+}
+/*结尾*/
+#ft{
+	background: #E0E0E0;
+}
+#ft thead a{
+	color: #222222;
+}
+#ft tbody tr td{
+	color: #777777;
+	line-height: 6px;
+}
+#ft thead a:hover, #footLink td:hover{
+	color: #4F608C;
+}
+
+#footInfo{
+	background: #22132D;
+	color: #A5A2A7;
+	font-size: 10px;
+	text-align: center;
+	padding: 20px 0;
+	line-height: 22px;
+}

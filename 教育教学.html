@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+			<title>清华大学-Tsinghua University</title>
+			<link rel="stylesheet" href="css/bootstrap.min.css"/>
+			<link rel="stylesheet" type="text/css" href="css/Tsinghua-Home.css" />
+			<link rel="stylesheet" href="css/others.css"/>
+			<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+<body>
+		<div class="container">
+		<header id="header">
+			<div id="topLine"></div>
+			<div id="topLeft" class="col-md-3" align="center">
+				<a id="logo" href="#" target="_blank">
+					<img src="img/img/slogo.png"/>
+				</a>
+			</div>
+			
+			<div class="topRight col-md-3">
+				<a href="#" id="en-version">English Version</a>
+				<div id="inputGroup" class="pull-right">
+                    <input type="text" class="form-control" id="input"></input>
+                    <button class="btn btn-default" type="button">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </div>
+      		</div>
+      	</header><!--<div class="header">头部结束-->
+
+      	<!--响应式导航条部分-->
+  		<div id="searchTab">
+  		<nav id="navbar-example" class="navbar navbar-default navbar-static">
+		<div class="container-fluid">
+  		
+  			<!--导航部分-->
+  			<!--小屏幕不显示-->
+    		<div class="navbar-header visible-xs" style="background: #efefef;">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar" style="background: black;"></span>
+        			<span class="icon-bar" style="background: black;"></span>
+        			<span class="icon-bar" style="background: black;"></span>
+      			</button>
+      			<a class="navbar-brand" href="#">导航</a>
+    		</div>
+    			
+            <!--详细列表部分-->
+    		<div class="collapse navbar-collapse bs-example-navbar-collapse-1">
+      			<ul class="nav navbar-nav" id="Nav">
+      				
+        			<li><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+      				
+        			<li><a href="清华新闻.html">清华新闻</a></li>
+        			
+        		<li class="dropdown">
+          			<a href="学校概况.html" class="dropdown-toggle"  aria-haspopup="true" aria-expanded="false">学校概况<span class="caret"></span></a>
+          				<ul class="dropdown-menu" id="dropdownMenu">
+            				<li><a href="学校概况-校长致辞.html">校长致词</a></li>
+            				<li><a href="#">学校沿革</a></li>
+            				<li><a href="#">历任领导</a></li>
+            				<li><a href="#">现任领导</a></li>
+            				<li><a href="#">组织机构</a></li>
+            				<li><a href="#">统计资料</a></li>
+          				</ul>
+        			</li>
+        			
+        			<li><a href="院系设置.html">院系设置</a></li>
+        			
+        			<li><a href="师资队伍.html">师资队伍</a></li>
+        			
+        			<li class="dropdown" >
+          			<a href="教育教学.html" class="dropdown-toggle"  aria-haspopup="true" 
+          				aria-expanded="false">教学教育<span class="caret"></span></a>
+          				<ul class="dropdown-menu" id="dropdownMenu">
+            				<li><a href="教育教学-本科生教育.html">本科生教育</a></li>
+            				<li><a href="#">研究生教育</a></li>
+            				<li><a href="#">国际研究生培养</a></li>
+            				<li><a href="#">继续教育</a></li>
+          				</ul>
+        			</li>
+        			
+        			<li class="dropdown">
+          			<a href="科学研究.html" class="dropdown-toggle"  aria-haspopup="true" 
+          				aria-expanded="false">科学研究<span class="caret"></span></a>
+          				<ul class="dropdown-menu" id="dropdownMenu">
+            				<li><a href="科学研究-科研项目.html">科研项目</a></li>
+            				<li><a href="#">科研机构</a></li>
+            				<li><a href="#">科研合作</a></li>
+            				<li><a href="#">科研成果与知识产权</a></li>
+            				<li><a href="#">学术交流</a></li>
+          				</ul>
+        			</li>
+        			
+        			<li class="dropdown">
+          			<a href="招生就业.html" class="dropdown-toggle"  aria-haspopup="true" 
+          				aria-expanded="false">招生就业<span class="caret"></span></a>
+          				<ul class="dropdown-menu" id="dropdownMenu">
+            				<li><a href="招生就业-本科生招生.html">本科生招生</a></li>
+            				<li><a href="#">研究生招生</a></li>
+            				<li><a href="#">国际学生招生</a></li>
+            				<li><a href="#">学生职业发展</a></li>
+          				</ul>
+        			</li>
+        			
+        			<li class="dropdown">
+          			<a href="#" class="dropdown-toggle"  aria-haspopup="true" 
+          				aria-expanded="false">人才招聘<span class="caret"></span></a>
+          				<ul class="dropdown-menu" id="dropdownMenu">
+            				<li><a href="#">招聘计划</a></li>
+            				<li><a href="#">招聘信息</a></li>
+            				<li><a href="#">我要应聘</a></li>
+          				</ul>
+        			</li>
+        			
+        			<li><a href="#">图书馆</a></li>
+        			
+        			<li class="dropdown">
+          			<a href="走进清华.html" class="dropdown-toggle"  aria-haspopup="true" 
+          				aria-expanded="false">走进清华<span class="caret"></span></a>
+          				<ul class="dropdown-menu" id="dropdownMenu">
+            				<li><a href="#">校园生活</a></li>
+            				<li><a href="#">校园风光</a></li>
+            				<li><a href="#">实用信息</a></li>
+          				</ul>
+        			</li>	
+      			</ul>	
+    		</div>
+    	</div>
+  		</nav>
+  		</div>
+  			
+  		<!--<div id="searchTab">导航条结束-->
+  		<!--鼠标悬停下拉菜单-->
+  		<script>    
+			$('li.dropdown').mouseover(function() {   
+     			$(this).addClass('open');
+			}).mouseout(function() {
+				$(this).removeClass('open');
+			});
+		</script>
+  		
+<!--紫色的框框-->
+<div id="kk">
+	<section class="channeltopimg" id="ct"><img src="img/img/12.jpg" class="img-responsive center-block"></section>
+			<div id="pposition"></div>
+			<div id="yposition">
+				<p style="line-height: 1px;">
+					<a href="Tsinghua-Home.html">首页</a>
+				    &nbsp; · &nbsp; 
+				    <a href="教育教学.html">教育教学</a>
+				</p>
+                <h2 id="xs-didden"><p>教育教学</p></h2>
+                <hr id="xs-didden" />
+                <p id="xs-didden">建校早期，清华就确立了"培植全才，增进国力"的宗旨。百年树人，桃李芬芳，十七万莘莘学子在清华精神熏陶下奋发向上，一大批治学、兴业、治国的英才挺起民族的脊梁。</p>
+			</div>
+		</div>
+	<!--紫色的框框-->	
+
+<!--正文部分-->
+<div class="container">
+<div id="detailPic">
+			<div id="detailTitle">
+				<p>教育教学</p>
+			</div>
+			
+			<div id="detailContent">
+				<div class="col-md-4">
+					<div align="center"><a href="#"><img src="img/img/ss5.jpg"/></a></div>
+					<figcaption><h3><a href="#" id="a">本科生教育 </a></h3></figcaption>
+                                
+                                <ul class="clearfix" id="cf">
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>本科专业&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>本科课程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>教学名师&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>精品课程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>实践教学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>教学过程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                   <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>特色项目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                </ul>
+	    			</div>
+	    
+	    		<div class="col-md-4">
+					<div align="center"><a href="#"><img src="img/img/ss6.jpg" /></a></div>
+					<figcaption><h3><a href="#" id="a">研究生教育</a></h3></figcaption>
+                                <ul class="clearfix" id="cf">
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>博士教育&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>硕士教育&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>国际化培养&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>授权学科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>学位授予&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>奖助体系&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                   <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>特色项目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                </ul>
+	    			</div>			
+	   
+	    		<div class="col-md-4">
+					<div align="center"><a href="#"><img src="img/img/ss7.jpg" /></a></div>
+					<figcaption><h3><a href="#" id="a">继续教育</a></h3></figcaption>
+                                <ul class="clearfix" id="cf">
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>发展概述&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>教育培训&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>教师进修&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>教育扶贫&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                               </ul>
+	    		</div> 
+			</div>
+	</div>
+	<div id="detailContent">
+		<div class="col-md-4">
+					<div align="center"><a href="#"><img src="img/img/ss8.jpg" /></a></div>
+					<figcaption><h3><a href="#" id="a">国际学生培养</a></h3></figcaption>
+                                <ul class="clearfix" id="cf">
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>发展概况&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>项目介绍&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                  <li><a href="" id="ah"><i class="thuicon-angle-right" id="tar"></i>部门联系&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                                </ul>
+		</div>
+	</div>
+</div>
+</div>
+	   		
+		
+  <!--结尾部分-->
+  <footer>
+			<div id="ft">
+			<div class="container">
+			<table class="table">
+				<thead>
+				<tr>
+					<th><a href="学校概况.html">学校概况</a></th> 
+					<th><a href="院系设置.html">院系设置</a></th> 
+					<th><a href="师资队伍.html">师资队伍</a></th> 
+					<th><a href="教育教学.html">教育教学</a></th>
+					<th><a href="科学研究.html">科学研究</a></th>
+					<th><a href="招生就业.html">招生就业</a></th>
+					<th><a href="人才招聘.html">人才招聘</a></th> 
+					<th><a href="走进清华.html">走进清华</a></th>	
+				</tr>
+				</thead>
+			
+				<tbody class="hidden-xs">
+				<tr>
+					<td colspan="2">校长致辞</td>
+					<td>概况</td>
+					<td>本科生教育</td>
+					<td>科研项目</td>
+					<td>本科生招生</td>
+					<td>招聘计划</td>
+					<td>校园生活</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2">学校沿革</td>
+					<td>杰出人才</td>
+					<td>研究生教育</td>
+					<td>科研机构</td>
+					<td>研究生招生</td>
+					<td>招聘信息</td>
+					<td>校园风光</td>
+				</tr>
+				
+				<tr>
+					<td colspan="3">历任领导</td>
+					<td>国际学生培养</td>
+					<td>科研合作</td>
+					<td>国际学生招生</td>
+					<td>我要应聘</td>
+					<td>实用信息</td>
+				</tr>
+				
+				<tr>
+					<td colspan="3">现任领导</td>
+					<td>继续教育</td>
+					<td>科研成果与知识产权</td>
+					<td colspan="3" >学生职业发展</td>
+				</tr>
+				
+				<tr>
+					<td colspan="4">组织机构</td>
+					<td colspan="4">学术交流</td>
+				</tr>
+				
+				<tr>
+					<td colspan="8">统计资料</td>
+				</tr>
+				</tbody>
+			
+			</table>
+			</div>
+			</div>
+			
+			<div id="footInfo">
+			<div class="container">
+			<div class="row">
+				<div class=" col-md-2 col-xs-12">电话查号台：010-62793001</div>
+				<div class=" col-md-4 col-xs-12">管理员信箱：webmaster@tsinghua.edu.cn</div>
+				<div class=" col-md-2 col-xs-12">地址：北京市海淀区清华大学</div>
+				<div class=" col-md-2 col-xs-12"></div>
+				<div class=" col-md-2 col-xs-12">京公网安备 110402430053 号</div>
+	            <div class=" col-md-2 col-xs-12" style="color: #6f6a74;">
+	                         版权所有 © 清华大学　　
+	            </div>                    
+	        </div>
+			</div>
+			</div>
+		</footer>
+     	<footer>
+        <p class="pull-right"><a href="#top">回到顶部&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
+     	</footer>
+    <script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+  </body>
+</html>
+  		
+    	

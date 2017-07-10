@@ -1,0 +1,156 @@
+#EduTab .glyphicon{
+    color: #5C307D;
+    border-left: 2px solid #DDDDDD;
+    padding: 18px 0 17px 20px;
+}
+#EduTab .navbar-collapse{
+	padding: 0;
+}
+#EduTab h3{
+	background: #5C307D;
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 48px;
+	padding: 0 22px;
+	margin: -19px 0px 0px 0px;
+}
+#EduTab ul{
+	border-top: 1px solid #DDDDDD;
+}
+#EduTab li{
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 15px;
+	line-height: 49px;
+	color: #22132D;
+	margin-left: -40px;
+}
+#underEdu{
+	border-left: 4px solid #FF9600;
+	/*position: relative;
+    left: -4px;	*/
+}
+#EduTab li a{
+	color: #22132D;
+	margin-left: 28px;
+}
+#EduTab li a:hover{
+	color: #4F608C;
+}
+.sub-menu { 
+	display: none; 
+}
+#EduTab .glyphicon{
+    color: #5C307D;
+    border-left: 2px solid #DDDDDD;
+    padding: 18px 0 17px 20px;
+}
+
+
+#IntroContent .col-sm-6{
+	margin-bottom: 30px;
+}
+#IntroContent .col-sm-6 a{
+	padding: 0px 30px 0px 30px;
+    margin-top: 18px;
+    display: block;
+    color: black;
+    font-size: 16px;
+}
+#IntroContent .col-sm-6 a:hover{
+	color: #4F608C;
+}
+#IntroContent .col-sm-6 p{
+	margin: 9px 0;
+    padding: 0 30px;
+    text-indent: 0;
+    color: #4F608C;
+    font-size: 12px;
+}
+/*相关链接部分*/
+#IntroLink{
+	margin-top: 50px;
+}
+#IntroLink h4{
+	border: none;
+	padding-bottom: 0;
+}
+#IntroLink ul{
+	padding-left: 0;
+	margin-top: 10px;
+}
+#IntroLink ul li{
+	padding: 4px 0;
+	font-size: 100%;
+}
+#IntroLink a{
+	color: #777;
+}
+#IntroLink a:hover{
+	color: #22132D;
+}
+/*相关链接部分*/
+
+#IntroContent h2{
+	color: #5C307D;
+	border-bottom: 1px solid #D4D4D4;
+    padding-bottom: 14px;
+}
+
+#IntroContent h4 {
+    border-bottom: 1px solid #D4D4D4;
+    color: black;
+    background: #f4f4f4;
+    line-height: 58px;
+}
+#IntroContent p{
+	margin: 40px 0;
+    text-indent: 2em;
+    color: #444444;
+}
+#IntroContent a{
+	text-align: match-parent;
+	text-decoration: none;
+	color: #777;
+}
+#IntroContent li{
+	padding: 4px 0;
+    font-size: 100%;
+}
+
+#IntroContent a:hover{
+	color: #22132D;
+}
+#IntroTitle{
+	margin-top: 22px;
+}
+#IntroTitle p,#IntroTitle a{
+	color: #999999;
+	font-size: 12px;
+}
+#IntroTitle a:hover{
+	color: #22132D;
+}
+
+/*结尾*/
+#ft{
+	background: #E0E0E0;
+}
+#ft thead a{
+	color: #222222;
+}
+#ft tbody tr td{
+	color: #777777;
+	line-height: 6px;
+}
+#ft thead a:hover, #footLink td:hover{
+	color: #4F608C;
+}
+
+#footInfo{
+	background: #22132D;
+	color: #A5A2A7;
+	font-size: 10px;
+	text-align: center;
+	padding: 20px 0;
+	line-height: 22px;
+}
